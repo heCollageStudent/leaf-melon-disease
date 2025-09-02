@@ -1,8 +1,8 @@
-flask
-numpy
-opencv-python
-joblib
-tensorflow
-scikit-learn
-pillow
-scikit-image
+flask==2.3.3
+numpy==1.23.5
+opencv-python==4.7.0.72
+joblib==1.2.0
+tensorflow==2.12.0
+scikit-learn==1.2.2
+pillow==9.5.0
+scikit-image==0.19.3
