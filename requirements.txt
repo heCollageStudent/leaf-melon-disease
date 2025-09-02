@@ -1,8 +1,24 @@
+# ---- server ----
 flask==2.3.3
+gunicorn==21.2.0
+
+# ---- core scientific ----
 numpy==1.23.5
-opencv-python==4.7.0.72
-joblib==1.2.0
-tensorflow==2.12.0
+scipy==1.10.1
+
+# ---- ml stack ----
+tensorflow-cpu==2.13.1
 scikit-learn==1.2.2
-pillow==9.5.0
-scikit-image==0.19.3
+
+# ---- imaging ----
+opencv-python-headless==4.8.1.78
+Pillow==9.5.0
+scikit-image==0.21.0
+
+# ---- utils ----
+joblib==1.3.2
+
+# ---- build helpers (fix error 'setuptools.build_meta')
+pip==23.2.1
+setuptools==68.2.2
+wheel==0.41.2
