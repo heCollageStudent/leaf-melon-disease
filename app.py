@@ -12,7 +12,7 @@ from skimage.feature import graycomatrix, graycoprops
 app = Flask(__name__)
 
 # ==== Load model dan tools ====
-model = load_model('model_special.h5', compile=False)
+model = load_model('model_melon.keras', compile=False)
 cnn_base = load_model('mobilenetv2_imagenet.keras', compile=False)
 scaler_warna = joblib.load('saved_scalers/scaler_warna.pkl')
 scaler_tekstur = joblib.load('saved_scalers/scaler_tekstur.pkl')
@@ -114,4 +114,5 @@ def home():
 # ==== Run ====
 if __name__ == "__main__":
     app.run(debug=True)
+
 
